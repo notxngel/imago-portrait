@@ -1,0 +1,20 @@
+{
+  "name": "imago-portraits",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Portfolio editorial y plataforma de reservas para Imago Portraits (Codecademy Full-Stack)",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "mocha \"tests/**/*.test.js\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "chai": "^5.2.0",
+    "eslint": "^9.39.1",
+    "globals": "^16.0.0",
+    "mocha": "^11.1.0",
+    "prettier": "^3.5.3"
+  }
+}
